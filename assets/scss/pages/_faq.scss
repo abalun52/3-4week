@@ -1,0 +1,43 @@
+.faq-wrap {
+  padding: 6rem 0.75rem 5rem 0.75rem;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 2.5rem 0.75rem 4rem 0.75rem;
+  }
+
+  @media (max-width: 996px) {
+    max-width: 100%;
+    padding: 5rem 0.75rem;
+  }
+}
+
+.title {
+  border-left: 8px solid #9f1213;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.ask {
+  margin-bottom: 1.5rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.question {
+  margin-bottom: 0.5rem;
+}

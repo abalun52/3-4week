@@ -1,0 +1,160 @@
+.footer {
+  a {
+    color: #fff;
+    &:hover {
+      color: #00ffff;
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .footer-wrap {
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+
+    @media (max-width: 996px) {
+      max-width: 100%;
+    }
+  }
+
+  .footer-wrap-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0 2.25rem 0;
+    border-bottom: 1px solid #fff;
+
+    @media (max-width: 768px) {
+      padding: 1.5rem 0 1.25rem 0;
+    }
+  }
+
+  .nav {
+    padding: 0.75rem 0;
+    margin-bottom: 1.5rem;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-item {
+    display: block;
+    margin-right: 3rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .conn-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .conn-icon {
+    margin-right: 22px;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+      margin-right: 11px;
+    }
+  }
+
+  .conn-way {
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  .social-menu {
+    display: flex;
+  }
+
+  .social-item {
+    display: block;
+    margin-right: 2rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media (max-width: 996px) {
+      margin-right: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .social-img {
+    display: block;
+    width: 48px;
+    height: 48px;
+
+    @media (max-width: 996px) {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (max-width: 768px) {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.inform {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 1.25rem 0 1.5rem 0;
+  }
+}
+
+.copyright {
+  @media (max-width: 768px) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.terms-menu {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.terms-item {
+  margin-right: 3rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
